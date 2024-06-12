@@ -14,7 +14,7 @@ let second = 0;
 let count = 0; 
 let timer = false;
 
-const times = [];
+let times = [];
 let interactionsHTML = ""
 
 startBtn.addEventListener('click', function () { 
@@ -125,5 +125,6 @@ resetAll.addEventListener('click', function() {
     total.innerHTML = ``;
     longest.innerHTML = ``;
     shortest.innerHTML = ``;
+    times = []
     }
 })
