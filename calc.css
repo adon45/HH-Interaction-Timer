@@ -18,7 +18,6 @@ body {
   align-items: center; 
   width: 100vw; 
   height: 100vh; 
-  min-height: 100%;
   background-color: #2b5147; 
   align-self: top;
 } 
@@ -92,23 +91,4 @@ h1 {
 
 .top {
   background-color: #8c2b55
-}
-
-#summary {
-  font-size: 2rem
-}
-
-#table *{
-  font-size: 2rem
-}
-
-@media only screen and (max-width: 768px) {
-  #summary {
-    font-size: 2vw
-  }
-
-  #table *{
-    font-size: 2vw
-  }
-  
 }
