@@ -92,3 +92,16 @@ h1 {
 .top {
   background-color: #8c2b55
 }
+
+#results {
+  display: none;
+}
+
+#number-boxes {
+  margin-bottom: 20px;
+  width: 3vw
+}
+
+.input-value{
+  background-color: #b9692d;
+}
