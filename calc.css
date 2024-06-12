@@ -17,7 +17,7 @@ body {
   justify-content: center; 
   align-items: center; 
   width: 100vw; 
-  height: 100vh; 
+  height: 100%; 
   background-color: #2b5147; 
   align-self: top;
 } 
@@ -91,4 +91,12 @@ h1 {
 
 .top {
   background-color: #8c2b55
+}
+
+#summary {
+  font-size: 2rem
+}
+
+#table *{
+  font-size: 2rem
 }
