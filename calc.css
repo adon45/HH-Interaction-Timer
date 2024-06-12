@@ -104,11 +104,11 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   #summary {
-    font-size: 2vh
+    font-size: 2vw
   }
 
   #table *{
-    font-size: 2vh
+    font-size: 2vw
   }
   
 }
