@@ -1,0 +1,94 @@
+
+
+body { 
+  padding: 0; 
+  margin: 0; 
+  font-family: verdana; 
+} 
+
+:root {
+  font-family: "Lora", serif;
+  color: #fcf9ec 
+}
+
+.container { 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw; 
+  height: 100vh; 
+  background-color: #2b5147; 
+  align-self: top;
+} 
+
+h1 { 
+  color: #eebb1c; 
+  text-align: center; 
+  padding-left: 5px;
+} 
+
+.digit { 
+  font-size: 6vw; /* Adjusted font size for responsive scaling */
+  color: #fff; 
+} 
+
+.txt { 
+  font-size: 3vw; /* Adjusted font size for responsive scaling */
+  color: #fffcd6; 
+} 
+
+#buttons { 
+  margin-top: 5vh; /* Adjusted margin for responsiveness */
+} 
+
+#reset-all {
+  background-color: #eebb1c
+}
+
+.btn { 
+  width: 25vw; /* Adjusted width for responsiveness */
+  padding: 2vh 3vw; /* Adjusted padding for responsiveness */
+  margin: 2vh 1.5vw; /* Adjusted margin for responsiveness */
+  border-radius: 10px; /* Simplified border radius */
+  cursor: pointer; 
+  font-size: 3vw; /* Adjusted font size for responsiveness */
+  transition: 0.5s; 
+  color: white; 
+  font-weight: 500; 
+} 
+
+#start { 
+  background-color: #c2e1cd; 
+} 
+
+#submit { 
+  background-color: #b9692d; 
+} 
+
+#reset { 
+  background-color: #8c2b55; 
+}
+
+#top {
+  width: 100vw;
+  background-color: #c2e1cd;
+}
+
+#logo {
+  width: 100%
+}
+
+.index {
+  background-color: #eebb1c;
+  color:  #8c2b55
+}
+
+.time {
+  background-color: #c2e1cd;
+  color:  #8c2b55
+}
+
+.top {
+  background-color: #8c2b55
+}
