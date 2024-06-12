@@ -13,13 +13,14 @@
     <div id="top"><img src="HH Dem - Copy.png" id="logo"></div>
     <div class="container"> 
         <h1>Interaction Duration<br></h1> 
+        <div id="box-input"><label for="number-boxes">Number of Boxes </label><input type="number" id="number-boxes"></div> 
         <div id="time">  
             <span class="digit" id="min">00</span> 
             <span class="txt">Min</span> 
             <span class="digit" id="sec">00</span> 
             <span class="txt">Sec</span> 
             <span class="digit" id="count"> 
-              00</span>  
+              00</span> 
         </div> 
         <div id="buttons"> 
             <button class="btn" id="start">Start/Stop</button> 
@@ -31,12 +32,15 @@
             <p id="total"></p>
             <p id="longest"></p>
             <p id="shortest"></p>
+            <p id="total-boxes"></p>
+            <p id="time-per-box"></p>
         </div>
         <div id="results">
             <table id="table">
                 <tr id="columns">
                     <td class="top">Car #</td><br>
                     <td class="top">Interaction Time</td>
+                    <td class="top">Number of Boxes</td>
                 </tr>
                 <tr id="interactions">
                 </tr>
